@@ -1,0 +1,120 @@
+/* CSS Reset */
+* {
+    /* outline: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----Nav-Bar---- */
+
+#nav-bar {
+    /* outline: 3px solid red; */
+    background-color: black;
+    margin: 0px 200px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    padding-left: 15px;
+    font-size: 2rem;
+}
+
+h2 {
+    color: black;
+    /* text-align: center; */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ----Main---- */
+
+#main {
+    /* outline: 3px solid green; */
+    /* border: 3px solid black; */
+    height: 800px;
+    margin: 0px 200px;
+    display: flex;
+    gap: 30px;
+}
+
+/* ----Col-left---- */
+
+#col-left {
+    flex: 1;
+}
+
+#col-right {
+    flex: 2;
+}
+
+.profile {
+    /* outline: 3px solid orange; */
+    border: 3px solid black;
+    height: 400px;
+}
+
+.profile,
+img {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info > img {
+    height: 150px;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+
+.profile-info {
+    margin: 0px 70px;
+    font-size: 1.5rem;
+}
+
+.profile-info > a {
+    margin-left: 15px;
+}
+
+/* ----Col-right---- */
+
+.profile-feed {
+    /* outline: 3px solid pink; */
+    height: 600px;
+    font-size: 1.5rem;
+}
+
+.box-1 {
+    outline: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.box-1 div {
+    /* outline: 3px solid red; */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box-1 h4 {
+    margin-right: auto;
+}
+
+.btn {
+    margin-left: 20px;
+    background-color: rgb(255, 217, 102);
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    padding: 5px 15px;
+}

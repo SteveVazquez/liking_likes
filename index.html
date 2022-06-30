@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Likes</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Font Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Nav-Bar -->
+        <div id="nav-bar">
+            <h1>Network</h1>
+        </div>
+        <!-- Header -->
+        <h2>Your Feed</h2>
+        <!-- Main -->
+        <div id="main">
+            <!-- Col-left -->
+            <div id="col-left">
+                <!-- Profile information -->
+                <div class="profile">
+                    <div class="profile-info">
+                        <img src="./images/profile_picture.webp" alt="" />
+                        <a href="#">Add an avatar</a>
+                        <h3>James Doe</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Col-right -->
+            <div id="col-right">
+                <!-- Profile feed -->
+                <div class="profile-feed">
+                    <div class="box-1">
+                        <div>
+                            <!-- Nein M -->
+                            <h4>Neil M</h4>
+                            <p><span id="neil-count">9</span> likes(s)</p>
+                            <button
+                                class="btn"
+                                onclick="incrementLike('#neil-count')"
+                            >
+                                Like
+                            </button>
+                        </div>
+                        <p>
+                            I just set up this new discord bot, let me know what
+                            you all think. <a href="#">link</a>
+                        </p>
+                    </div>
+                    <div class="box-1">
+                        <div>
+                            <!-- Nichole K -->
+                            <h4>Nichole K</h4>
+                            <p><span id="nichole-count">12</span> likes(s)</p>
+                            <button
+                                class="btn"
+                                onclick="incrementLike('#nichole-count')"
+                            >
+                                Like
+                            </button>
+                        </div>
+                        <p>
+                            I just set up this new discord bot, let me know what
+                            you all think. <a href="#">link</a>
+                        </p>
+                    </div>
+                    <div class="box-1">
+                        <div>
+                            <!-- Jim R -->
+                            <h4>Jim R</h4>
+                            <p><span id="jim-count">9</span> likes(s)</p>
+                            <button
+                                class="btn"
+                                onclick="incrementLike('#jim-count')"
+                            >
+                                Like
+                            </button>
+                        </div>
+                        <p>
+                            I just set up this new discord bot, let me know what
+                            you all think. <a href="#">link</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Script file -->
+        <script src="script.js"></script>
+    </body>
+</html>
